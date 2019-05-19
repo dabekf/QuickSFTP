@@ -1,0 +1,10 @@
+[
+    {
+        "caption": "QuickSFTP: Upload file",
+        "command": "quick_sftp_upload"
+    },
+    {
+        "caption": "QuickSFTP: Reload configuration",
+        "command": "quick_sftp_init"
+    }
+]

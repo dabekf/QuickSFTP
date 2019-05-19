@@ -1,0 +1,17 @@
+{
+    "name": "myProject",
+    "username": "bob",
+    "password": "abc123",
+    "privateKeyPath": "C:/Cygwin64/home/bob/.ssh/id_rsa",
+    "host": "example.org",
+    "port": 22,
+    "remotePath": "/var/www/my_project",
+    "connectTimeout": 5,
+    "directoryPermissions": "755",
+    "filePermissions": "644",
+    "uploadOnSave": true,
+    "ignore": [
+        "^\\.git/",
+        "^var/"
+    ]
+}
