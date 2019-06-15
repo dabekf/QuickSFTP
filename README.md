@@ -9,7 +9,7 @@ Paramiko and many of its dependencies are not packaged with Sublime Text 3. Bund
 ## Requirements
 
 - Sublime Text 3 (tested with version 3.2.1 build 3207)
-- pathlib dependency
+- Paramiko and a number of its dependencies
 
 ## Installation
 
@@ -25,10 +25,10 @@ Paramiko and many of its dependencies are not packaged with Sublime Text 3. Bund
   - <https://pypi.org/project/PyNaCl/1.1.2/>
   - <https://pypi.org/project/paramiko/2.3.3/>
   - <https://pypi.org/project/pyasn1/0.4.5/>
-  - <https://pypi.org/project/six/1.12.0/>
-- If you see a message about installing missing dependency (pathlib), restart Sublime Text
 
-These versions specify compatibility with Python 3.3. I basically downloaded correct wheel (.whl) files for my system. You need files that have 'cp33' or 'none' in their name, for example *PyNaCl-1.1.2-cp33-cp33m-win_amd64.whl* or *six-1.12.0-py2.py3-none-any.whl*. Wheels are zip compressed files and can just be extracted.
+These versions specify compatibility with Python 3.3. For every library go to "Download files" section and find the correct .whl file for your architecture. You are looking for files with 'cp33' or 'none-any' in their name. These files are zip archives and can be extracted with standard tools.
+
+Two dependencies (pathlib, six) might install automatically, if they do, restart will be required.
 
 ## Configuration
 
