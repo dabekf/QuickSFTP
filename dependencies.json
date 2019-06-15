@@ -1,6 +1,7 @@
 {
    "*": {
       "*": [
+         "enum",
          "pathlib",
          "python-six"
       ]

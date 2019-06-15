@@ -20,7 +20,6 @@ Paramiko and many of its dependencies are not packaged with Sublime Text 3. Bund
   - <https://pypi.org/project/bcrypt/3.1.3/>
   - <https://pypi.org/project/cffi/1.11.5/>
   - <https://pypi.org/project/cryptography/1.9/>
-  - <https://pypi.org/project/enum34/1.1.6/>
   - <https://pypi.org/project/idna/2.7/>
   - <https://pypi.org/project/PyNaCl/1.1.2/>
   - <https://pypi.org/project/paramiko/2.3.3/>
@@ -28,7 +27,7 @@ Paramiko and many of its dependencies are not packaged with Sublime Text 3. Bund
 
 These versions specify compatibility with Python 3.3. For every library go to "Download files" section and find the correct .whl file for your architecture. You are looking for files with 'cp33' or 'none-any' in their name. These files are zip archives and can be extracted with standard tools.
 
-Two dependencies (pathlib, six) might install automatically, if they do, restart will be required.
+Some dependencies (enum, pathlib, six) might install automatically. If they do, restart will be required.
 
 ## Configuration
 
