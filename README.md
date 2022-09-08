@@ -1,5 +1,7 @@
 # QuickSFTP
 
+**Deprecation warning. I was unable to install Paramiko in newer versions of Sublime Text so I'm not going to maintain this project anymore.**
+
 Upload single file to remote server via sftp in Sublime Text 3.
 
 This plugin allows you to send a file from a local project to a remote server using SFTP protocol. You can use a command from the command palette, or enable upload after save. It doesn't start external processes, instead using the Sublime Text Python interface and Python SSH library, [Paramiko](http://www.paramiko.org/). That way start times are shorter and you can reuse open connections, so subsequent uploads are even faster.
